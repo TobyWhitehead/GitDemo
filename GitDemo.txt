@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class PrintNameNumber {
+
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("enter password guess:");
+        String PasswordGuess = keyboard.nextLine();
+        System.out.println("PasswordGuess: " + PasswordGuess);
+        String SamplePassword = "banana";
+        boolean correct_status = PasswordGuess.equals(SamplePassword);
+        System.out.println(correct_status);
+
+
+    }
+
+}
